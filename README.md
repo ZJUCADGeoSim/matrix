@@ -43,7 +43,7 @@ correct.  One can refer "Eigen: Aliasing" to understand this.
 
 ## History
 
-Jin Huang learned some about Matlab and when his was a bachelor
+Jin Huang learned some about Matlab and when he was a bachelor
 student.  Inspired by the design of mwArray in Matlab, he began to
 write C++ matrix library in 2001. After several rounds of code
 refactoring, he found the current design in 2004, and intensively
