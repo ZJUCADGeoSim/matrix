@@ -11,8 +11,8 @@ Some most important features include:
 * matrix and vector are unified.
 * index can be integer, range, and another integer-valued vector/matrix.
 
-If you are familiar with matlab, you may find that this lib can easily
-bring your experience in matlab to your C++ code.
+If you are familiar with MATLAB, you may find that this lib can easily
+bring your experience in MATLAB to your C++ code.
 
 ## Usage
 
@@ -35,7 +35,7 @@ In C++, use "colon()" for ":", and use "colon(beg, end)" for "beg:end".
 
 * A=A*B will give wrong answer
 
-This is a common behavior of many library using C++ Expression
+This is a common behavior of many libraries using C++ Expression
 Templates.
 
 The correct way is A=temp(A*B).  It should be noticed that A=A+B is

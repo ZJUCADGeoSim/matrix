@@ -26,15 +26,11 @@ include(cmake/CPM.cmake)
 
 CPMAddPackage("gh:TheLartians/PackageProject.cmake@1.6.0")
 
-file(GLOB headers "${CMAKE_CURRENT_SOURCE_DIR}include/*.h")
 
 add_library(matrix INTERFACE)
 target_include_directories(
     matrix INTERFACE $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
                      $<INSTALL_INTERFACE:include/${PROJECT_NAME}-${PROJECT_VERSION}>)
-
-install(FILES ${headers}
-    DESTINATION include/zjucad/matrix)
 
 packageProject(
     NAME ${PROJECT_NAME}
